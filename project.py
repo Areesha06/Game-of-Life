@@ -36,7 +36,7 @@ while True:
             x_indx = j
             y_indx = k
             final = count_neighbours(grid, x_indx, y_indx, m, n)
-            # print("final: ", final)
+            print("final: ", final)
                 # count =  (grid[x_indx+1][y_indx] == 1)*1 + (grid[x_indx][y_indx+1] == 1)*1 + (grid[x_indx-1][y_indx] == 1)*1 + (grid[x_indx][y_indx - 1] == 1)*1 + (grid[x_indx+1][y_indx+1] == 1)*1 + (grid[x_indx-1][y_indx-1] == 1)*1 + (grid[x_indx+1][y_indx-1] == 1)*1 + (grid[x_indx-1][y_indx+1] == 1)*1
                 # print("count:", count, "x_indx:", x_indx, "y_indx:", y_indx)
             if final < 2 or final > 3:
