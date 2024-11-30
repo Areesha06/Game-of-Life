@@ -23,7 +23,7 @@ for a in range(clicks):
     x = int(input("x-coordinate:" ))
     y = int(input("y-coordinate:" ))
     grid[x][y] = 1
-# times = int(input("how many times function runs: "))
+times = int(input("how many times function runs: "))
 # for u in range(times):
 while True:
     system("cls")
